@@ -1,0 +1,18 @@
+{
+  "go.useLanguageServer": true,
+  "go.gopath": "",
+  "go.goroot": "",
+  "go.toolsManagement.autoUpdate": true,
+  "go.delveConfig": {
+    "dlvFlags": ["--check-go-version=false"]
+  },
+  "cSpell.words": [
+    "climbstairs",
+    "correctparanthesis",
+    "findsubstr",
+    "mergesortedlinkedlist",
+    "msll",
+    "removeduplicatesfromsortedarray",
+    "removeval"
+  ]
+}
