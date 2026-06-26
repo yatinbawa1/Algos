@@ -1,0 +1,23 @@
+package tribbonacci
+
+func Tribonacci(n int) int {
+	t0 := 0
+	t1 := 1
+	t2 := 1
+
+	if n == 0 {
+		return 0
+	}
+
+	if n == 1 || n == 2 {
+		return 1
+	}
+
+	val := 0
+	for i := 3; i <= n; i++ {
+		val = t0 + t1 + t2
+		t0, t1, t2 = t1, t2, val
+	}
+
+	return val
+}

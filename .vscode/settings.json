@@ -7,12 +7,20 @@
     "dlvFlags": ["--check-go-version=false"]
   },
   "cSpell.words": [
+    "buysellstock",
     "climbstairs",
     "correctparanthesis",
     "findsubstr",
+    "houserobber",
+    "issubsequence",
+    "jumpgame",
     "mergesortedlinkedlist",
+    "mincostclimbstairs",
     "msll",
+    "pascalstriangle",
     "removeduplicatesfromsortedarray",
-    "removeval"
+    "removeval",
+    "tribbonacci",
+    "Tribonacci"
   ]
 }
