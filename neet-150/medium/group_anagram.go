@@ -1,5 +1,6 @@
 package medium
 
+// Completed
 func groupAnagrams(strings []string) [][]string {
 	hashmap := make(map[[26]uint8][]string)
 
