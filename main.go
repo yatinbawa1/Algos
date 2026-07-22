@@ -6,8 +6,5 @@ import (
 )
 
 func main() {
-	v := []int{1, 2, 2, 3, 3, 3, 4}
-	k := 2
-
-	fmt.Println(medium.TopKFrequent(v, k))
+	fmt.Println(medium.LongestConsecutive(([]int{2, 20, 4, 10, 3, 4, 5})))
 }
